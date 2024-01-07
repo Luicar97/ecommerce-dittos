@@ -24,12 +24,6 @@ import Grid from '@mui/material/Grid'; // Grid version 2
 import logo from '../public/assets/img/logo.png';
 import Stack from "@mui/material/Stack";
 
-
-
-
-
-
-
 const Sidebar = () => {
   const pathname = usePathname();
 
