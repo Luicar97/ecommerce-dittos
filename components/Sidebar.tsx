@@ -71,7 +71,7 @@ const Sidebar = () => {
               />
             </Box>
             <Container maxWidth="xs" sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-              <Typography variant="h5" sx={{ fontWeight: 'bold', textAlign: 'center', color: '#1FAEC5' }}>Soundix.</Typography>
+              <Typography variant="h5" sx={{ fontWeight: 'bold', textAlign: 'center', color: '#1FAEC5' }}>Dittos.</Typography>
             </Container>
           </Stack>
         </Toolbar >
