@@ -13,7 +13,7 @@ export default function Home() {
     //Head
     <Box>
       <Header />
-      <Box height={20} ></Box>
+      <Box height={40} ></Box>
       {/* Slider Banner */}
       <SliderBanner />
       <Box height={80} ></Box>

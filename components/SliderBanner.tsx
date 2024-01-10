@@ -6,6 +6,9 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Box from '@mui/material/Box';
 
+//Images
+import BannerOne from '../public/assets/img/banners/banner_one.svg';
+
 export default function SliderBanner() {
 
     var settings = {
@@ -22,22 +25,22 @@ export default function SliderBanner() {
     return (
         <Slider {...settings}>
             <Box>
-                <img style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto' }} src="https://dummyimage.com/900x350/000/fff" alt="" />
+                <img style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', borderRadius: 20 }} src={BannerOne.src} alt="" />
             </Box>
             <Box>
-                <img style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto' }} src="https://dummyimage.com/900x350/000/fff" alt="" />
+                <img style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', borderRadius: 20 }} src={BannerOne.src} alt="" />
             </Box>
             <Box>
-                <img style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto' }} src="https://dummyimage.com/900x350/000/fff" alt="" />
+                <img style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', borderRadius: 20 }} src={BannerOne.src} alt="" />
             </Box>
             <Box>
-                <img style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto' }} src="https://dummyimage.com/900x350/000/fff" alt="" />
+                <img style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', borderRadius: 20 }} src={BannerOne.src} alt="" />
             </Box>
             <Box>
-                <img style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto' }} src="https://dummyimage.com/900x350/000/fff" alt="" />
+                <img style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', borderRadius: 20 }} src={BannerOne.src} alt="" />
             </Box>
             <Box>
-                <img style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto' }} src="https://dummyimage.com/900x350/000/fff" alt="" />
+                <img style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', borderRadius: 20 }} src={BannerOne.src} alt="" />
             </Box>
         </Slider>
     );
