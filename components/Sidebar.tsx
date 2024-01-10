@@ -27,7 +27,9 @@ import Stack from "@mui/material/Stack";
 const Sidebar = () => {
   const pathname = usePathname();
 
-  const showSidebar = pathname.replace("/", "") === "docs";
+  // const showSidebar = pathname.replace("/", "") === "docs";
+
+  const showSidebar = true;
 
   return (
     <Box sx={{ display: showSidebar ? "none" : "flex" }}>
