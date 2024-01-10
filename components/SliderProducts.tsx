@@ -67,6 +67,16 @@ export default function SliderProducts(props: SliderProducts) {
                     centerMode: false,
                     infinite: false,
                 }
+            },
+            {
+                breakpoint: 490,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: false,
+                    centerMode: true,
+                    infinite: false,
+                }
             }
         ]
     };
