@@ -11,12 +11,15 @@ import Button from "@mui/material/Button";
 export default function SliderProducts() {
 
     var settings = {
-        dots: false,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 4,
-        slidesToScroll: 2,
+        // dots: false,
+        // infinite: true,
+        // speed: 500,
+        slidesToShow: 5,
+        // slidesToScroll: 2,
         centerMode: true,
+        // arrows: true,
+        // adaptiveHeight: false,
+        // prevArrow: "<img class='a-left control-c prev slick-prev' src='../public/assets/img/arrowtwo.svg'>",
         // autoplay: true,
         // Hacer responsive luego
         responsive: [
@@ -50,8 +53,15 @@ export default function SliderProducts() {
 
     return (
         <Box >
-            <Slider {...settings}>
-                <Box>
+
+            <Box sx={{ paddingLeft: '26px', paddingBottom: 3 }}>
+                <Typography variant="h6" color="initial" fontWeight='bold'>Viste el verano con frescura y moda.</Typography>
+                <Typography variant="body2" color="initial">Descrube nuestras prendas de temporada</Typography>
+            </Box>
+
+
+            <Slider className="sliderProducts" {...settings}>
+                <Box sx={{}}>
                     <Box >
                         <img style={{ borderTopLeftRadius: 14, borderTopRightRadius: 14, }} src="https://dummyimage.com/202x202/000/fff" alt="" />
                     </Box>
@@ -191,3 +201,4 @@ export default function SliderProducts() {
         </Box>
     );
 }
+

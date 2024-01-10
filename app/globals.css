@@ -114,3 +114,22 @@ a {
   /* padding-left: 18rem !important; */
   background-color: #eee;
 }
+
+.slick-prev{
+  left: 41px !important;
+    z-index: 1;
+} 
+
+
+.slick-next {
+  right: 40px !important;
+  z-index: 1;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: #ffac53 !important;
+}
+
+.sliderProducts .slick-list{
+  padding: 0px 82px !important;
+}
