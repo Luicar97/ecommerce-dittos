@@ -131,5 +131,6 @@ a {
 }
 
 .sliderProducts .slick-list{
-  padding: 0px 82px !important;
+  /* padding: 0px 82px !important; */
+  padding: 0px !important;
 }
