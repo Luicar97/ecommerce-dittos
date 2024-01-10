@@ -4,6 +4,7 @@ import Box from '@mui/material/Box';
 import SliderBanner from '@/components/SliderBanner';
 import SliderProduct from '@/components/SliderProducts';
 import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 
 
@@ -18,7 +19,17 @@ export default function Home() {
       <SliderBanner />
       <Box height={80} ></Box>
       {/* Slider Products */}
-      <SliderProduct />
+      <SliderProduct title={'Viste el verano con frescura y moda.'} subtitle={'Descrube nuestras prendas de temporada'} />
+      <Box height={80} ></Box>
+      <Box sx={{ backgroundColor: '#ffac53E6', paddingTop: '24px', paddingBottom: '40px', borderRadius: '12px' }}>
+        <SliderProduct title={'Transforma el tiempo de juego en momentos inolvidables.'} subtitle={'¡Descubre la magia de jugar con nuestros juguetes de temporada!'} />
+      </Box>
+      <Box height={80} ></Box>
+      <SliderProduct title={'Viste el verano con frescura y moda.'} subtitle={'Descrube nuestras prendas de temporada'} />
+      <Box height={80} ></Box>
+      {/* Footer */}
+      <Footer />
+      <Box height={6} ></Box>
     </Box>
   );
 }
