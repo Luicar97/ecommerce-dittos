@@ -12,7 +12,7 @@ export default function SliderProducts() {
 
     var settings = {
         // dots: false,
-        // infinite: true,
+        infinite: true,
         // speed: 500,
         slidesToShow: 5,
         // slidesToScroll: 2,
@@ -26,23 +26,26 @@ export default function SliderProducts() {
             {
                 breakpoint: 1290,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 4,
                     slidesToScroll: 1,
                     infinite: true,
+                    arrows: false,
                 }
             },
             {
                 breakpoint: 1020,
                 settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2
+                    slidesToShow: 3,
+                    slidesToScroll: 2,
+                    arrows: false,
                 }
             },
             {
                 breakpoint: 750,
                 settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    arrows: false,
                 }
             }
             // You can unslick at a given breakpoint now by adding:
