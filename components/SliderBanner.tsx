@@ -25,22 +25,22 @@ export default function SliderBanner() {
     return (
         <Slider {...settings}>
             <Box>
-                <img style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', borderRadius: 20 }} src={BannerOne.src} alt="" />
+                <img style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', borderRadius: 20, width: '96%' }} src={BannerOne.src} alt="" />
             </Box>
             <Box>
-                <img style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', borderRadius: 20 }} src={BannerOne.src} alt="" />
+                <img style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', borderRadius: 20, width: '96%' }} src={BannerOne.src} alt="" />
             </Box>
             <Box>
-                <img style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', borderRadius: 20 }} src={BannerOne.src} alt="" />
+                <img style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', borderRadius: 20, width: '96%' }} src={BannerOne.src} alt="" />
             </Box>
             <Box>
-                <img style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', borderRadius: 20 }} src={BannerOne.src} alt="" />
+                <img style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', borderRadius: 20, width: '96%' }} src={BannerOne.src} alt="" />
             </Box>
             <Box>
-                <img style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', borderRadius: 20 }} src={BannerOne.src} alt="" />
+                <img style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', borderRadius: 20, width: '96%' }} src={BannerOne.src} alt="" />
             </Box>
             <Box>
-                <img style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', borderRadius: 20 }} src={BannerOne.src} alt="" />
+                <img style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', borderRadius: 20, width: '96%' }} src={BannerOne.src} alt="" />
             </Box>
         </Slider>
     );
