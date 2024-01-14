@@ -7,6 +7,7 @@ import Slider from "react-slick";
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography'
 import Button from "@mui/material/Button";
+import { useRouter } from 'next/navigation';
 
 //img
 import corgiLoves from '../public/assets/img/corgiloves.svg';
@@ -19,6 +20,8 @@ interface SliderProducts {
 
 
 export default function SliderProducts(props: SliderProducts) {
+
+    const router = useRouter();
 
     var settings = {
         // dots: false,
@@ -104,7 +107,7 @@ export default function SliderProducts(props: SliderProducts) {
                             </Box>
 
                             <Box sx={{ paddingTop: '8px', display: 'flex', justifyContent: 'center' }}>
-                                <Button variant="contained" size="small" sx={{ backgroundColor: '#ffac53' }}><Typography variant="body2" color="white" fontWeight='bold'>COMPRAR</Typography></Button>
+                                <Button variant="contained" size="small" sx={{ backgroundColor: '#ffac53' }} onClick={() => { router.push("/product"); }}><Typography variant="body2" color="white" fontWeight='bold'>COMPRAR</Typography></Button>
                             </Box>
                         </Box>
                     </Box>
@@ -121,7 +124,7 @@ export default function SliderProducts(props: SliderProducts) {
                             </Box>
 
                             <Box sx={{ paddingTop: '8px', display: 'flex', justifyContent: 'center' }}>
-                                <Button variant="contained" size="small" sx={{ backgroundColor: '#ffac53' }}><Typography variant="body2" color="white" fontWeight='bold'>COMPRAR</Typography></Button>
+                                <Button variant="contained" size="small" sx={{ backgroundColor: '#ffac53' }} onClick={() => { router.push("/product"); }}><Typography variant="body2" color="white" fontWeight='bold'>COMPRAR</Typography></Button>
                             </Box>
                         </Box>
                     </Box>
@@ -138,7 +141,7 @@ export default function SliderProducts(props: SliderProducts) {
                             </Box>
 
                             <Box sx={{ paddingTop: '8px', display: 'flex', justifyContent: 'center' }}>
-                                <Button variant="contained" size="small" sx={{ backgroundColor: '#ffac53' }}><Typography variant="body2" color="white" fontWeight='bold'>COMPRAR</Typography></Button>
+                                <Button variant="contained" size="small" sx={{ backgroundColor: '#ffac53' }} onClick={() => { router.push("/product"); }}><Typography variant="body2" color="white" fontWeight='bold'>COMPRAR</Typography></Button>
                             </Box>
                         </Box>
                     </Box>
@@ -155,7 +158,7 @@ export default function SliderProducts(props: SliderProducts) {
                             </Box>
 
                             <Box sx={{ paddingTop: '8px', display: 'flex', justifyContent: 'center' }}>
-                                <Button variant="contained" size="small" sx={{ backgroundColor: '#ffac53' }}><Typography variant="body2" color="white" fontWeight='bold'>COMPRAR</Typography></Button>
+                                <Button variant="contained" size="small" sx={{ backgroundColor: '#ffac53' }} onClick={() => { router.push("/product"); }}><Typography variant="body2" color="white" fontWeight='bold'>COMPRAR</Typography></Button>
                             </Box>
                         </Box>
                     </Box>
@@ -172,7 +175,7 @@ export default function SliderProducts(props: SliderProducts) {
                             </Box>
 
                             <Box sx={{ paddingTop: '8px', display: 'flex', justifyContent: 'center' }}>
-                                <Button variant="contained" size="small" sx={{ backgroundColor: '#ffac53' }}><Typography variant="body2" color="white" fontWeight='bold'>COMPRAR</Typography></Button>
+                                <Button variant="contained" size="small" sx={{ backgroundColor: '#ffac53' }} onClick={() => { router.push("/product"); }}><Typography variant="body2" color="white" fontWeight='bold'>COMPRAR</Typography></Button>
                             </Box>
                         </Box>
                     </Box>
@@ -189,7 +192,7 @@ export default function SliderProducts(props: SliderProducts) {
                             </Box>
 
                             <Box sx={{ paddingTop: '8px', display: 'flex', justifyContent: 'center' }}>
-                                <Button variant="contained" size="small" sx={{ backgroundColor: '#ffac53' }}><Typography variant="body2" color="white" fontWeight='bold'>COMPRAR</Typography></Button>
+                                <Button variant="contained" size="small" sx={{ backgroundColor: '#ffac53' }} onClick={() => { router.push("/product"); }}><Typography variant="body2" color="white" fontWeight='bold'>COMPRAR</Typography></Button>
                             </Box>
                         </Box>
                     </Box>
@@ -206,7 +209,7 @@ export default function SliderProducts(props: SliderProducts) {
                             </Box>
 
                             <Box sx={{ paddingTop: '8px', display: 'flex', justifyContent: 'center' }}>
-                                <Button variant="contained" size="small" sx={{ backgroundColor: '#ffac53' }}><Typography variant="body2" color="white" fontWeight='bold'>COMPRAR</Typography></Button>
+                                <Button variant="contained" size="small" sx={{ backgroundColor: '#ffac53' }} onClick={() => { router.push("/product"); }}><Typography variant="body2" color="white" fontWeight='bold'>COMPRAR</Typography></Button>
                             </Box>
                         </Box>
                     </Box>
@@ -223,7 +226,7 @@ export default function SliderProducts(props: SliderProducts) {
                             </Box>
 
                             <Box sx={{ paddingTop: '8px', display: 'flex', justifyContent: 'center' }}>
-                                <Button variant="contained" size="small" sx={{ backgroundColor: '#ffac53' }}><Typography variant="body2" color="white" fontWeight='bold'>COMPRAR</Typography></Button>
+                                <Button variant="contained" size="small" sx={{ backgroundColor: '#ffac53' }} onClick={() => { router.push("/product"); }}><Typography variant="body2" color="white" fontWeight='bold'>COMPRAR</Typography></Button>
                             </Box>
                         </Box>
                     </Box>
@@ -240,7 +243,7 @@ export default function SliderProducts(props: SliderProducts) {
                             </Box>
 
                             <Box sx={{ paddingTop: '8px', display: 'flex', justifyContent: 'center' }}>
-                                <Button variant="contained" size="small" sx={{ backgroundColor: '#ffac53' }}><Typography variant="body2" color="white" fontWeight='bold'>COMPRAR</Typography></Button>
+                                <Button variant="contained" size="small" sx={{ backgroundColor: '#ffac53' }} onClick={() => { router.push("/product"); }}><Typography variant="body2" color="white" fontWeight='bold'>COMPRAR</Typography></Button>
                             </Box>
                         </Box>
                     </Box>

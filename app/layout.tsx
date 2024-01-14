@@ -3,6 +3,8 @@ import { MaterialTheme } from "@/components/Material";
 import Sidebar from "@/components/Sidebar";
 import Container from "@mui/material/Container";
 import './globals.css'
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 export default function RootLayout({
   children,
@@ -15,7 +17,9 @@ export default function RootLayout({
         <AppRouterCacheProvider>
           <MaterialTheme>
             <Sidebar />
+            <Header />
             <Container maxWidth="xl" >{children}</Container>
+            <Footer />
           </MaterialTheme>
         </AppRouterCacheProvider>
       </body>

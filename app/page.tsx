@@ -13,7 +13,6 @@ export default function Home() {
 
     //Head
     <Box>
-      <Header />
       <Box height={40} ></Box>
       {/* Slider Banner */}
       <SliderBanner />
@@ -26,10 +25,7 @@ export default function Home() {
       </Box>
       <Box height={80} ></Box>
       <SliderProduct title={'Viste el verano con frescura y moda.'} subtitle={'Descrube nuestras prendas de temporada'} />
-      <Box height={80} ></Box>
-      {/* Footer */}
-      <Footer />
-      <Box height={6} ></Box>
+      <Box height={60} ></Box>
     </Box>
   );
 }
